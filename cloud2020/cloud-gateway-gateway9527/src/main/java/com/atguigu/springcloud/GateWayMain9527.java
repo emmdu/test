@@ -8,7 +8,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 @EnableEurekaClient
 public class GateWayMain9527 {
     public static void main(String[] args) {
-        System.out.println("正在启动");
+        System.out.println("正在启动1");
         SpringApplication.run(GateWayMain9527.class, args);
     }
 }
