@@ -13,6 +13,8 @@ public class CommonResult<T> {
     private T data;
 
     public CommonResult(Integer code, String message) {
+        
+        System.out.println("CommonResult 创建了");
         this(code, message, null);
     }
 }
