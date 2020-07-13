@@ -13,6 +13,10 @@ public class CommonResult<T> {
     private T data;
 
     public CommonResult(Integer code, String message) {
+        System.out.println("111");
+        System.out.println("222");
         this(code, message, null);
+
+
     }
 }
